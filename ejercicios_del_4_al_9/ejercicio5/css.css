@@ -1,0 +1,24 @@
+p{
+    background-color: rgb(189, 241, 224);
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+}
+u{
+    color: rgb(17, 192, 40);
+}
+#rojo{
+    color: rgb(240, 74, 74);
+}
+#doble{
+    text-decoration-line: underline overline;
+    color: black;
+}
+#grande{
+    font-size: 35px;
+}
+#azul{
+    color: blue;
+}
