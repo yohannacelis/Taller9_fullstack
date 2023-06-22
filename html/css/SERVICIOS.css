@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;496&family=Oswald:wght@400;655&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    width: 100%;
+    background-color: turquoise;
+    height: 90px;
+}
+.ancho{
+    width: 80%;
+    height: 90px;
+    margin: auto;
+}
+.logo{
+    width: 20%;
+    height: 90px;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+nav{
+    width: 80%;
+    height: 90px;
+    float: left;
+    text-align: right;
+
+    
+}
+li{
+    text-align: center;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+#menu ul li{
+    display: inline;
+    position: relative;
+    float: left;
+    margin: 5px;
+    padding: 0;
+}
+#menu ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    font-weight:400;
+    padding: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#menu ul li:hover {
+    background: #5abdbb;
+}
+#menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #5abdbb;
+    padding: 0;
+    z-index:1;
+}
+#menu ul ul li{
+    float: none;
+    width: 150px;
+}
+#menu ul ul a{
+    line-height: 120%;
+    padding: 10px 15px;
+}
+#menu ul li:hover > ul {
+    display:block;
+}
+#img1{
+    width: 200px;
+}
+#img2{
+    width: 35px;
+    margin: 1px;
+    padding: 1px;
+}
+#img3{
+    width: 40px;
+}
+#img4{
+    width: 35px;
+}
+#front{
+    width: 90%;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+#front header{
+    margin: 5px;
+    padding: 5px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(226, 171, 171);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#front img{
+    width: 50%;
+    margin: 10px;
+}
+#front p{
+    padding: 15px;
+    font-size: 25px;
+}
+#back2{
+    width: 90%;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+#back2 header{
+    margin: 5px;
+    padding: 5px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(226, 171, 171);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#back2 img{
+    width: 50%;
+    margin: 10px;
+}
+#back2 p{
+    padding: 15px;
+    font-size: 25px;
+}
+footer{
+    background-color: #5abdbb;
+    height: 60%;
+    width: 100vw;
+    font-family: Opens Sans;
+    padding-top: 40px;
+    color: black;   
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+     text-decoration: none;
+     color: black;
+}
+.socials a i{
+    font-size: 1,1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: beige;
+}
+.foooter-bottom{
+    background-color: #5abdbb;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.foooter-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.foooter-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+#logo_footer{
+    width: 10%;
+}
+#Contactos{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
