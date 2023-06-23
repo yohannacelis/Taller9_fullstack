@@ -1,0 +1,19 @@
+
+table{
+    background-color: yellow;
+    margin: 20px;
+    border-color: black;
+    text-align: center;
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+#rojo{
+    color: red;
+}
+div{
+    background-color: yellow;
+}
+
+
