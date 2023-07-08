@@ -1,0 +1,12 @@
+#amarillo{
+    color: rgb(238, 228, 89);
+    font-size: 30px;
+}
+#morado{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+a:hover{
+    background-color: rgb(127, 193, 255);
+}
